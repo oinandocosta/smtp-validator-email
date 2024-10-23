@@ -205,7 +205,7 @@ class BagHelper implements \IteratorAggregate, \Countable
      *
      * @return \ArrayIterator An \ArrayIterator instance
      */
-    public function count()
+    public function count(): int
     {
         return count($this->container);
     }
