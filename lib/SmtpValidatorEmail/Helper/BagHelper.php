@@ -215,7 +215,7 @@ class BagHelper implements \IteratorAggregate, \Countable
      *
      * @return object The ArrayIterator object of container
      */
-    public function getIterator()
+    public function getIterator(): \Traversable
     {
         return new \ArrayIterator($this->container);
     }
